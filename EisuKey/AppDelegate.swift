@@ -46,7 +46,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusBarItem = NSStatusBar.system.statusItem(withLength: CGFloat(NSStatusItem.variableLength))
         guard let button = self.statusBarItem.button else { return }
         button.image = NSImage(named: "toEi")!
-        button.action = #selector(showHidePopover(_:))
+        button.action = #selector(handleStatusBarItemTapped(_:))
         
         let popover = NSPopover()
         popover.contentSize = NSSize(width: 350, height: 500)
@@ -69,7 +69,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         changeToEisuInput()
     }
     
-    @objc private func showHidePopover(_ sender: AnyObject?) {
+    /// ステータスバーがタップされた
+    @objc private func handleStatusBarItemTapped(_ sender: AnyObject?) {
         guard let button = self.statusBarItem.button else { return }
         if popover.isShown {
             popover.performClose(sender)
