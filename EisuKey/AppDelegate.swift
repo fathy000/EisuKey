@@ -89,3 +89,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 }
 
+/*
+ TODO: かな文字モードも作る
+ 
+ */
+
