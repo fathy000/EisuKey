@@ -13,14 +13,12 @@ import Sauce
 class AppDelegate: NSObject, NSApplicationDelegate {
     private var statusBarItem: NSStatusItem!
     private var popover: NSPopover!
-    private var timer: Timer?
     private let eisuKeyCode = Sauce.shared.keyCode(for: .eisu)
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         checkAvailability()
         setupViews()
         setupObservers()
-        setTimer()
     }
     
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -47,7 +45,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private func setupViews() {
         statusBarItem = NSStatusBar.system.statusItem(withLength: CGFloat(NSStatusItem.variableLength))
         guard let button = self.statusBarItem.button else { return }
-        button.image = NSImage(systemSymbolName: "checkmark.circle.fill", accessibilityDescription: nil)
+        button.image = NSImage(named: "toEi")!
         button.action = #selector(showHidePopover(_:))
         
         let popover = NSPopover()
@@ -59,9 +57,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     private func setupObservers() {
-        // キーボード監視
-        NSEvent.addGlobalMonitorForEvents(matching: .flagsChanged, handler: handleKeyboardEvent)
-        NSEvent.addGlobalMonitorForEvents(matching: .keyDown, handler: handleKeyboardEvent)
         // アプリ変更監視
         NSWorkspace.shared.notificationCenter.addObserver(self,
                                                           selector: #selector(handleAppChangeNotification(_:)),
@@ -84,37 +79,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
     
-    private func setTimer() {
-        timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true, block: handleTimerEvent)
-    }
-    
-    /// タイマー発火イベント
-    private func handleTimerEvent(timer: Timer) {
-        print("handle timer event")
-        changeToEisuInput()
-    }
-    
     private func changeToEisuInput() {
         let src = CGEventSource(stateID: CGEventSourceStateID.hidSystemState)
         
         let eisuEvent = CGEvent(keyboardEventSource: src, virtualKey: eisuKeyCode, keyDown: true)
         
         eisuEvent?.post(tap: .cghidEventTap)
-    }
-    
-    /// キーボード入力イベント
-    private func handleKeyboardEvent(_ event: NSEvent) {
-        if event.keyCode == eisuKeyCode {
-            print("get eisu key event")
-            return
-        }
-        if event.keyCode == CGKeyCode(55) {
-            print("command")
-            return
-        }
-        print("handle key down")
-        timer?.invalidate()
-        setTimer()
     }
 }
 
