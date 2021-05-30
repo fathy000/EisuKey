@@ -19,7 +19,6 @@
 		D4DF0A0D2663CF44000FFC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A0C2663CF44000FFC50 /* AppDelegate.swift */; };
 		D4DF0A112663CF45000FFC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DF0A102663CF45000FFC50 /* Assets.xcassets */; };
 		D4DF0A142663CF45000FFC50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DF0A132663CF45000FFC50 /* Preview Assets.xcassets */; };
-		D4DF0A172663CF45000FFC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DF0A152663CF45000FFC50 /* Main.storyboard */; };
 		D4DF0A232663CF45000FFC50 /* EisuKeyLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A222663CF45000FFC50 /* EisuKeyLauncherTests.swift */; };
 		D4DF0A2E2663CF45000FFC50 /* EisuKeyLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A2D2663CF45000FFC50 /* EisuKeyLauncherUITests.swift */; };
 		D4DF0A3A2663D05F000FFC50 /* EisuKeyLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4DF0A0A2663CF44000FFC50 /* EisuKeyLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -100,7 +99,6 @@
 		D4DF0A0C2663CF44000FFC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4DF0A102663CF45000FFC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4DF0A132663CF45000FFC50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D4DF0A162663CF45000FFC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4DF0A182663CF45000FFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4DF0A192663CF45000FFC50 /* EisuKeyLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EisuKeyLauncher.entitlements; sourceTree = "<group>"; };
 		D4DF0A1E2663CF45000FFC50 /* EisuKeyLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,7 +238,6 @@
 			children = (
 				D4DF0A0C2663CF44000FFC50 /* AppDelegate.swift */,
 				D4DF0A102663CF45000FFC50 /* Assets.xcassets */,
-				D4DF0A152663CF45000FFC50 /* Main.storyboard */,
 				D4DF0A182663CF45000FFC50 /* Info.plist */,
 				D4DF0A192663CF45000FFC50 /* EisuKeyLauncher.entitlements */,
 				D4DF0A122663CF45000FFC50 /* Preview Content */,
@@ -470,7 +467,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4DF0A172663CF45000FFC50 /* Main.storyboard in Resources */,
 				D4DF0A142663CF45000FFC50 /* Preview Assets.xcassets in Resources */,
 				D4DF0A112663CF45000FFC50 /* Assets.xcassets in Resources */,
 			);
@@ -572,14 +568,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				D40296DD2663442A00772AE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D4DF0A152663CF45000FFC50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4DF0A162663CF45000FFC50 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
