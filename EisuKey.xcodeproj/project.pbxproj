@@ -16,6 +16,13 @@
 		D40297042663484D00772AE5 /* Sauce.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40297032663484D00772AE5 /* Sauce.xcframework */; };
 		D40297052663484D00772AE5 /* Sauce.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40297032663484D00772AE5 /* Sauce.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4384238266372BD0023E63C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4384237266372BD0023E63C /* ContentView.swift */; };
+		D4DF0A0D2663CF44000FFC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A0C2663CF44000FFC50 /* AppDelegate.swift */; };
+		D4DF0A112663CF45000FFC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DF0A102663CF45000FFC50 /* Assets.xcassets */; };
+		D4DF0A142663CF45000FFC50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DF0A132663CF45000FFC50 /* Preview Assets.xcassets */; };
+		D4DF0A172663CF45000FFC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4DF0A152663CF45000FFC50 /* Main.storyboard */; };
+		D4DF0A232663CF45000FFC50 /* EisuKeyLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A222663CF45000FFC50 /* EisuKeyLauncherTests.swift */; };
+		D4DF0A2E2663CF45000FFC50 /* EisuKeyLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A2D2663CF45000FFC50 /* EisuKeyLauncherUITests.swift */; };
+		D4DF0A3A2663D05F000FFC50 /* EisuKeyLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4DF0A0A2663CF44000FFC50 /* EisuKeyLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,20 @@
 			remoteGlobalIDString = D40296CF2663442900772AE5;
 			remoteInfo = EisuKey;
 		};
+		D4DF0A1F2663CF45000FFC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40296C82663442900772AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4DF0A092663CF44000FFC50;
+			remoteInfo = EisuKeyLauncher;
+		};
+		D4DF0A2A2663CF45000FFC50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40296C82663442900772AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4DF0A092663CF44000FFC50;
+			remoteInfo = EisuKeyLauncher;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +66,16 @@
 				D40297052663484D00772AE5 /* Sauce.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A392663CFC5000FFC50 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				D4DF0A3A2663D05F000FFC50 /* EisuKeyLauncher.app in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -65,6 +96,19 @@
 		D40296F62663442A00772AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D40297032663484D00772AE5 /* Sauce.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sauce.xcframework; path = Carthage/Build/Sauce.xcframework; sourceTree = "<group>"; };
 		D4384237266372BD0023E63C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4DF0A0A2663CF44000FFC50 /* EisuKeyLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisuKeyLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DF0A0C2663CF44000FFC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4DF0A102663CF45000FFC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4DF0A132663CF45000FFC50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4DF0A162663CF45000FFC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4DF0A182663CF45000FFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DF0A192663CF45000FFC50 /* EisuKeyLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EisuKeyLauncher.entitlements; sourceTree = "<group>"; };
+		D4DF0A1E2663CF45000FFC50 /* EisuKeyLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DF0A222663CF45000FFC50 /* EisuKeyLauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyLauncherTests.swift; sourceTree = "<group>"; };
+		D4DF0A242663CF45000FFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DF0A292663CF45000FFC50 /* EisuKeyLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4DF0A2D2663CF45000FFC50 /* EisuKeyLauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyLauncherUITests.swift; sourceTree = "<group>"; };
+		D4DF0A2F2663CF45000FFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E075F1266394EC00E94848 /* HotKey.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HotKey.xcframework; path = Carthage/Build/HotKey.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +135,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4DF0A072663CF44000FFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A1B2663CF45000FFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A262663CF45000FFC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,6 +165,9 @@
 				D40296D22663442900772AE5 /* EisuKey */,
 				D40296E82663442A00772AE5 /* EisuKeyTests */,
 				D40296F32663442A00772AE5 /* EisuKeyUITests */,
+				D4DF0A0B2663CF44000FFC50 /* EisuKeyLauncher */,
+				D4DF0A212663CF45000FFC50 /* EisuKeyLauncherTests */,
+				D4DF0A2C2663CF45000FFC50 /* EisuKeyLauncherUITests */,
 				D40296D12663442900772AE5 /* Products */,
 				D40297022663484D00772AE5 /* Frameworks */,
 			);
@@ -111,6 +179,9 @@
 				D40296D02663442900772AE5 /* EisuKey.app */,
 				D40296E52663442A00772AE5 /* EisuKeyTests.xctest */,
 				D40296F02663442A00772AE5 /* EisuKeyUITests.xctest */,
+				D4DF0A0A2663CF44000FFC50 /* EisuKeyLauncher.app */,
+				D4DF0A1E2663CF45000FFC50 /* EisuKeyLauncherTests.xctest */,
+				D4DF0A292663CF45000FFC50 /* EisuKeyLauncherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +235,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D4DF0A0B2663CF44000FFC50 /* EisuKeyLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF0A0C2663CF44000FFC50 /* AppDelegate.swift */,
+				D4DF0A102663CF45000FFC50 /* Assets.xcassets */,
+				D4DF0A152663CF45000FFC50 /* Main.storyboard */,
+				D4DF0A182663CF45000FFC50 /* Info.plist */,
+				D4DF0A192663CF45000FFC50 /* EisuKeyLauncher.entitlements */,
+				D4DF0A122663CF45000FFC50 /* Preview Content */,
+			);
+			path = EisuKeyLauncher;
+			sourceTree = "<group>";
+		};
+		D4DF0A122663CF45000FFC50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF0A132663CF45000FFC50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4DF0A212663CF45000FFC50 /* EisuKeyLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF0A222663CF45000FFC50 /* EisuKeyLauncherTests.swift */,
+				D4DF0A242663CF45000FFC50 /* Info.plist */,
+			);
+			path = EisuKeyLauncherTests;
+			sourceTree = "<group>";
+		};
+		D4DF0A2C2663CF45000FFC50 /* EisuKeyLauncherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF0A2D2663CF45000FFC50 /* EisuKeyLauncherUITests.swift */,
+				D4DF0A2F2663CF45000FFC50 /* Info.plist */,
+			);
+			path = EisuKeyLauncherUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +285,7 @@
 				D40296CD2663442900772AE5 /* Frameworks */,
 				D40296CE2663442900772AE5 /* Resources */,
 				D40297062663484D00772AE5 /* Embed Frameworks */,
+				D4DF0A392663CFC5000FFC50 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -221,6 +332,59 @@
 			productReference = D40296F02663442A00772AE5 /* EisuKeyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D4DF0A092663CF44000FFC50 /* EisuKeyLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DF0A362663CF45000FFC50 /* Build configuration list for PBXNativeTarget "EisuKeyLauncher" */;
+			buildPhases = (
+				D4DF0A062663CF44000FFC50 /* Sources */,
+				D4DF0A072663CF44000FFC50 /* Frameworks */,
+				D4DF0A082663CF44000FFC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EisuKeyLauncher;
+			productName = EisuKeyLauncher;
+			productReference = D4DF0A0A2663CF44000FFC50 /* EisuKeyLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4DF0A1D2663CF45000FFC50 /* EisuKeyLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DF0A372663CF45000FFC50 /* Build configuration list for PBXNativeTarget "EisuKeyLauncherTests" */;
+			buildPhases = (
+				D4DF0A1A2663CF45000FFC50 /* Sources */,
+				D4DF0A1B2663CF45000FFC50 /* Frameworks */,
+				D4DF0A1C2663CF45000FFC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4DF0A202663CF45000FFC50 /* PBXTargetDependency */,
+			);
+			name = EisuKeyLauncherTests;
+			productName = EisuKeyLauncherTests;
+			productReference = D4DF0A1E2663CF45000FFC50 /* EisuKeyLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4DF0A282663CF45000FFC50 /* EisuKeyLauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DF0A382663CF45000FFC50 /* Build configuration list for PBXNativeTarget "EisuKeyLauncherUITests" */;
+			buildPhases = (
+				D4DF0A252663CF45000FFC50 /* Sources */,
+				D4DF0A262663CF45000FFC50 /* Frameworks */,
+				D4DF0A272663CF45000FFC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4DF0A2B2663CF45000FFC50 /* PBXTargetDependency */,
+			);
+			name = EisuKeyLauncherUITests;
+			productName = EisuKeyLauncherUITests;
+			productReference = D4DF0A292663CF45000FFC50 /* EisuKeyLauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,6 +405,17 @@
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = D40296CF2663442900772AE5;
 					};
+					D4DF0A092663CF44000FFC50 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D4DF0A1D2663CF45000FFC50 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D4DF0A092663CF44000FFC50;
+					};
+					D4DF0A282663CF45000FFC50 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D4DF0A092663CF44000FFC50;
+					};
 				};
 			};
 			buildConfigurationList = D40296CB2663442900772AE5 /* Build configuration list for PBXProject "EisuKey" */;
@@ -259,6 +434,9 @@
 				D40296CF2663442900772AE5 /* EisuKey */,
 				D40296E42663442A00772AE5 /* EisuKeyTests */,
 				D40296EF2663442A00772AE5 /* EisuKeyUITests */,
+				D4DF0A092663CF44000FFC50 /* EisuKeyLauncher */,
+				D4DF0A1D2663CF45000FFC50 /* EisuKeyLauncherTests */,
+				D4DF0A282663CF45000FFC50 /* EisuKeyLauncherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,6 +460,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D40296EE2663442A00772AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A082663CF44000FFC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DF0A172663CF45000FFC50 /* Main.storyboard in Resources */,
+				D4DF0A142663CF45000FFC50 /* Preview Assets.xcassets in Resources */,
+				D4DF0A112663CF45000FFC50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A1C2663CF45000FFC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A272663CF45000FFC50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,6 +518,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4DF0A062663CF44000FFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DF0A0D2663CF44000FFC50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A1A2663CF45000FFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DF0A232663CF45000FFC50 /* EisuKeyLauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DF0A252663CF45000FFC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DF0A2E2663CF45000FFC50 /* EisuKeyLauncherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -329,6 +555,16 @@
 			target = D40296CF2663442900772AE5 /* EisuKey */;
 			targetProxy = D40296F12663442A00772AE5 /* PBXContainerItemProxy */;
 		};
+		D4DF0A202663CF45000FFC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4DF0A092663CF44000FFC50 /* EisuKeyLauncher */;
+			targetProxy = D4DF0A1F2663CF45000FFC50 /* PBXContainerItemProxy */;
+		};
+		D4DF0A2B2663CF45000FFC50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4DF0A092663CF44000FFC50 /* EisuKeyLauncher */;
+			targetProxy = D4DF0A2A2663CF45000FFC50 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -336,6 +572,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				D40296DD2663442A00772AE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4DF0A152663CF45000FFC50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4DF0A162663CF45000FFC50 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -590,6 +834,138 @@
 			};
 			name = Release;
 		};
+		D4DF0A302663CF45000FFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EisuKeyLauncher/EisuKeyLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EisuKeyLauncher/Preview Content\"";
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EisuKeyLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D4DF0A312663CF45000FFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EisuKeyLauncher/EisuKeyLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EisuKeyLauncher/Preview Content\"";
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EisuKeyLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D4DF0A322663CF45000FFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyLauncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisuKeyLauncher.app/Contents/MacOS/EisuKeyLauncher";
+			};
+			name = Debug;
+		};
+		D4DF0A332663CF45000FFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyLauncherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisuKeyLauncher.app/Contents/MacOS/EisuKeyLauncher";
+			};
+			name = Release;
+		};
+		D4DF0A342663CF45000FFC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyLauncherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EisuKeyLauncher;
+			};
+			name = Debug;
+		};
+		D4DF0A352663CF45000FFC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyLauncherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EisuKeyLauncher;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -625,6 +1001,33 @@
 			buildConfigurations = (
 				D40297002663442A00772AE5 /* Debug */,
 				D40297012663442A00772AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DF0A362663CF45000FFC50 /* Build configuration list for PBXNativeTarget "EisuKeyLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DF0A302663CF45000FFC50 /* Debug */,
+				D4DF0A312663CF45000FFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DF0A372663CF45000FFC50 /* Build configuration list for PBXNativeTarget "EisuKeyLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DF0A322663CF45000FFC50 /* Debug */,
+				D4DF0A332663CF45000FFC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DF0A382663CF45000FFC50 /* Build configuration list for PBXNativeTarget "EisuKeyLauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4DF0A342663CF45000FFC50 /* Debug */,
+				D4DF0A352663CF45000FFC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
