@@ -4,7 +4,7 @@ import AppKit
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
-            Text("Make\nEpic\nThings")
+            Text("テストアプリ")
                 .font(Font.system(size: 34.0))
                 .fontWeight(.semibold)
                 .multilineTextAlignment(.leading)
