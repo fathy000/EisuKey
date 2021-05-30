@@ -22,6 +22,7 @@
 		D4DF0A232663CF45000FFC50 /* EisuKeyLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A222663CF45000FFC50 /* EisuKeyLauncherTests.swift */; };
 		D4DF0A2E2663CF45000FFC50 /* EisuKeyLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A2D2663CF45000FFC50 /* EisuKeyLauncherUITests.swift */; };
 		D4DF0A3A2663D05F000FFC50 /* EisuKeyLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4DF0A0A2663CF44000FFC50 /* EisuKeyLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D4DF0A3C2663D1D3000FFC50 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF0A3B2663D1D3000FFC50 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,7 @@
 		D4DF0A292663CF45000FFC50 /* EisuKeyLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DF0A2D2663CF45000FFC50 /* EisuKeyLauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyLauncherUITests.swift; sourceTree = "<group>"; };
 		D4DF0A2F2663CF45000FFC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DF0A3B2663D1D3000FFC50 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		D4E075F1266394EC00E94848 /* HotKey.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HotKey.xcframework; path = Carthage/Build/HotKey.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +192,7 @@
 				D40296D32663442900772AE5 /* AppDelegate.swift */,
 				D40296D72663442A00772AE5 /* Assets.xcassets */,
 				D4384237266372BD0023E63C /* ContentView.swift */,
+				D4DF0A3B2663D1D3000FFC50 /* CheckBox.swift */,
 				D40296DC2663442A00772AE5 /* Main.storyboard */,
 				D40296DF2663442A00772AE5 /* Info.plist */,
 				D40296E02663442A00772AE5 /* EisuKey.entitlements */,
@@ -495,6 +498,7 @@
 			files = (
 				D4384238266372BD0023E63C /* ContentView.swift in Sources */,
 				D40296D42663442900772AE5 /* AppDelegate.swift in Sources */,
+				D4DF0A3C2663D1D3000FFC50 /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

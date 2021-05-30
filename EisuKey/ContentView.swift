@@ -1,7 +1,9 @@
 import SwiftUI
 import AppKit
+import ServiceManagement
 
 struct ContentView: View {
+    @State private var isCheckedLaunchWhenLogin = false
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Text("テストアプリ")
@@ -11,6 +13,13 @@ struct ContentView: View {
                 .padding(.horizontal, 16.0)
                 .padding(.vertical, 12.0)
                 .frame(width: 360.0, height: 320.0, alignment: .topLeading)
+            CheckBox(isChecked: $isCheckedLaunchWhenLogin) { isChecked in
+                if SMLoginItemSetEnabled("jp.scorebook.EisuKeyLauncher" as CFString, isChecked) {
+                    UserDefaults.standard.setValue(isChecked, forKey: "launchAtLogin")
+                        } else {
+                            isCheckedLaunchWhenLogin = UserDefaults.standard.bool(forKey: "launchAtLogin")
+                        }
+            }
             Button(action: {
                 NSApplication.shared.terminate(self)
             })
