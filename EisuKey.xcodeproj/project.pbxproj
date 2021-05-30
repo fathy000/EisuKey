@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		D40296DE2663442A00772AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40296DC2663442A00772AE5 /* Main.storyboard */; };
 		D40296EA2663442A00772AE5 /* EisuKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296E92663442A00772AE5 /* EisuKeyTests.swift */; };
 		D40296F52663442A00772AE5 /* EisuKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296F42663442A00772AE5 /* EisuKeyUITests.swift */; };
+		D40297042663484D00772AE5 /* Sauce.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40297032663484D00772AE5 /* Sauce.xcframework */; };
+		D40297052663484D00772AE5 /* Sauce.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40297032663484D00772AE5 /* Sauce.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D40297062663484D00772AE5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D40297052663484D00772AE5 /* Sauce.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D40296D02663442900772AE5 /* EisuKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisuKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40296D32663442900772AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +62,7 @@
 		D40296F02663442A00772AE5 /* EisuKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40296F42663442A00772AE5 /* EisuKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyUITests.swift; sourceTree = "<group>"; };
 		D40296F62663442A00772AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40297032663484D00772AE5 /* Sauce.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sauce.xcframework; path = Carthage/Build/Sauce.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40297042663484D00772AE5 /* Sauce.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +98,7 @@
 				D40296E82663442A00772AE5 /* EisuKeyTests */,
 				D40296F32663442A00772AE5 /* EisuKeyUITests */,
 				D40296D12663442900772AE5 /* Products */,
+				D40297022663484D00772AE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +151,14 @@
 			path = EisuKeyUITests;
 			sourceTree = "<group>";
 		};
+		D40297022663484D00772AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D40297032663484D00772AE5 /* Sauce.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +169,7 @@
 				D40296CC2663442900772AE5 /* Sources */,
 				D40296CD2663442900772AE5 /* Frameworks */,
 				D40296CE2663442900772AE5 /* Resources */,
+				D40297062663484D00772AE5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
