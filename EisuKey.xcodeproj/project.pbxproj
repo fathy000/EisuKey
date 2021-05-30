@@ -15,6 +15,7 @@
 		D40296F52663442A00772AE5 /* EisuKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296F42663442A00772AE5 /* EisuKeyUITests.swift */; };
 		D40297042663484D00772AE5 /* Sauce.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40297032663484D00772AE5 /* Sauce.xcframework */; };
 		D40297052663484D00772AE5 /* Sauce.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D40297032663484D00772AE5 /* Sauce.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4384238266372BD0023E63C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4384237266372BD0023E63C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		D40296F42663442A00772AE5 /* EisuKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyUITests.swift; sourceTree = "<group>"; };
 		D40296F62663442A00772AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D40297032663484D00772AE5 /* Sauce.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sauce.xcframework; path = Carthage/Build/Sauce.xcframework; sourceTree = "<group>"; };
+		D4384237266372BD0023E63C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4E075F1266394EC00E94848 /* HotKey.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HotKey.xcframework; path = Carthage/Build/HotKey.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,7 @@
 			children = (
 				D40296D32663442900772AE5 /* AppDelegate.swift */,
 				D40296D72663442A00772AE5 /* Assets.xcassets */,
+				D4384237266372BD0023E63C /* ContentView.swift */,
 				D40296DC2663442A00772AE5 /* Main.storyboard */,
 				D40296DF2663442A00772AE5 /* Info.plist */,
 				D40296E02663442A00772AE5 /* EisuKey.entitlements */,
@@ -154,6 +158,7 @@
 		D40297022663484D00772AE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4E075F1266394EC00E94848 /* HotKey.xcframework */,
 				D40297032663484D00772AE5 /* Sauce.xcframework */,
 			);
 			name = Frameworks;
@@ -290,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4384238266372BD0023E63C /* ContentView.swift in Sources */,
 				D40296D42663442900772AE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
