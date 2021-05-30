@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D40296D42663442900772AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296D32663442900772AE5 /* AppDelegate.swift */; };
-		D40296D62663442900772AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296D52663442900772AE5 /* ContentView.swift */; };
 		D40296D82663442A00772AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40296D72663442A00772AE5 /* Assets.xcassets */; };
 		D40296DB2663442A00772AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40296DA2663442A00772AE5 /* Preview Assets.xcassets */; };
 		D40296DE2663442A00772AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40296DC2663442A00772AE5 /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		D40296D02663442900772AE5 /* EisuKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisuKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40296D32663442900772AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D40296D52663442900772AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D40296D72663442A00772AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40296DA2663442A00772AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D40296DD2663442A00772AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				D40296D32663442900772AE5 /* AppDelegate.swift */,
-				D40296D52663442900772AE5 /* ContentView.swift */,
 				D40296D72663442A00772AE5 /* Assets.xcassets */,
 				D40296DC2663442A00772AE5 /* Main.storyboard */,
 				D40296DF2663442A00772AE5 /* Info.plist */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40296D62663442900772AE5 /* ContentView.swift in Sources */,
 				D40296D42663442900772AE5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -469,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
