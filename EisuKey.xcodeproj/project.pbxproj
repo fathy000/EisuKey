@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40296D42663442900772AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296D32663442900772AE5 /* AppDelegate.swift */; };
+		D40296D62663442900772AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296D52663442900772AE5 /* ContentView.swift */; };
+		D40296D82663442A00772AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40296D72663442A00772AE5 /* Assets.xcassets */; };
+		D40296DB2663442A00772AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40296DA2663442A00772AE5 /* Preview Assets.xcassets */; };
+		D40296DE2663442A00772AE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40296DC2663442A00772AE5 /* Main.storyboard */; };
+		D40296EA2663442A00772AE5 /* EisuKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296E92663442A00772AE5 /* EisuKeyTests.swift */; };
+		D40296F52663442A00772AE5 /* EisuKeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40296F42663442A00772AE5 /* EisuKeyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40296E62663442A00772AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40296C82663442900772AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40296CF2663442900772AE5;
+			remoteInfo = EisuKey;
+		};
+		D40296F12663442A00772AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40296C82663442900772AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40296CF2663442900772AE5;
+			remoteInfo = EisuKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40296D02663442900772AE5 /* EisuKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EisuKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40296D32663442900772AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D40296D52663442900772AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D40296D72663442A00772AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40296DA2663442A00772AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D40296DD2663442A00772AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40296DF2663442A00772AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40296E02663442A00772AE5 /* EisuKey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EisuKey.entitlements; sourceTree = "<group>"; };
+		D40296E52663442A00772AE5 /* EisuKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40296E92663442A00772AE5 /* EisuKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyTests.swift; sourceTree = "<group>"; };
+		D40296EB2663442A00772AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40296F02663442A00772AE5 /* EisuKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EisuKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40296F42663442A00772AE5 /* EisuKeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EisuKeyUITests.swift; sourceTree = "<group>"; };
+		D40296F62663442A00772AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40296CD2663442900772AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40296E22663442A00772AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40296ED2663442A00772AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40296C72663442900772AE5 = {
+			isa = PBXGroup;
+			children = (
+				D40296D22663442900772AE5 /* EisuKey */,
+				D40296E82663442A00772AE5 /* EisuKeyTests */,
+				D40296F32663442A00772AE5 /* EisuKeyUITests */,
+				D40296D12663442900772AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40296D12663442900772AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40296D02663442900772AE5 /* EisuKey.app */,
+				D40296E52663442A00772AE5 /* EisuKeyTests.xctest */,
+				D40296F02663442A00772AE5 /* EisuKeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40296D22663442900772AE5 /* EisuKey */ = {
+			isa = PBXGroup;
+			children = (
+				D40296D32663442900772AE5 /* AppDelegate.swift */,
+				D40296D52663442900772AE5 /* ContentView.swift */,
+				D40296D72663442A00772AE5 /* Assets.xcassets */,
+				D40296DC2663442A00772AE5 /* Main.storyboard */,
+				D40296DF2663442A00772AE5 /* Info.plist */,
+				D40296E02663442A00772AE5 /* EisuKey.entitlements */,
+				D40296D92663442A00772AE5 /* Preview Content */,
+			);
+			path = EisuKey;
+			sourceTree = "<group>";
+		};
+		D40296D92663442A00772AE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D40296DA2663442A00772AE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D40296E82663442A00772AE5 /* EisuKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D40296E92663442A00772AE5 /* EisuKeyTests.swift */,
+				D40296EB2663442A00772AE5 /* Info.plist */,
+			);
+			path = EisuKeyTests;
+			sourceTree = "<group>";
+		};
+		D40296F32663442A00772AE5 /* EisuKeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40296F42663442A00772AE5 /* EisuKeyUITests.swift */,
+				D40296F62663442A00772AE5 /* Info.plist */,
+			);
+			path = EisuKeyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40296CF2663442900772AE5 /* EisuKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40296F92663442A00772AE5 /* Build configuration list for PBXNativeTarget "EisuKey" */;
+			buildPhases = (
+				D40296CC2663442900772AE5 /* Sources */,
+				D40296CD2663442900772AE5 /* Frameworks */,
+				D40296CE2663442900772AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EisuKey;
+			productName = EisuKey;
+			productReference = D40296D02663442900772AE5 /* EisuKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40296E42663442A00772AE5 /* EisuKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40296FC2663442A00772AE5 /* Build configuration list for PBXNativeTarget "EisuKeyTests" */;
+			buildPhases = (
+				D40296E12663442A00772AE5 /* Sources */,
+				D40296E22663442A00772AE5 /* Frameworks */,
+				D40296E32663442A00772AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40296E72663442A00772AE5 /* PBXTargetDependency */,
+			);
+			name = EisuKeyTests;
+			productName = EisuKeyTests;
+			productReference = D40296E52663442A00772AE5 /* EisuKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D40296EF2663442A00772AE5 /* EisuKeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40296FF2663442A00772AE5 /* Build configuration list for PBXNativeTarget "EisuKeyUITests" */;
+			buildPhases = (
+				D40296EC2663442A00772AE5 /* Sources */,
+				D40296ED2663442A00772AE5 /* Frameworks */,
+				D40296EE2663442A00772AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40296F22663442A00772AE5 /* PBXTargetDependency */,
+			);
+			name = EisuKeyUITests;
+			productName = EisuKeyUITests;
+			productReference = D40296F02663442A00772AE5 /* EisuKeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40296C82663442900772AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D40296CF2663442900772AE5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D40296E42663442A00772AE5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D40296CF2663442900772AE5;
+					};
+					D40296EF2663442A00772AE5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D40296CF2663442900772AE5;
+					};
+				};
+			};
+			buildConfigurationList = D40296CB2663442900772AE5 /* Build configuration list for PBXProject "EisuKey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40296C72663442900772AE5;
+			productRefGroup = D40296D12663442900772AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40296CF2663442900772AE5 /* EisuKey */,
+				D40296E42663442A00772AE5 /* EisuKeyTests */,
+				D40296EF2663442A00772AE5 /* EisuKeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40296CE2663442900772AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40296DE2663442A00772AE5 /* Main.storyboard in Resources */,
+				D40296DB2663442A00772AE5 /* Preview Assets.xcassets in Resources */,
+				D40296D82663442A00772AE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40296E32663442A00772AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40296EE2663442A00772AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40296CC2663442900772AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40296D62663442900772AE5 /* ContentView.swift in Sources */,
+				D40296D42663442900772AE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40296E12663442A00772AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40296EA2663442A00772AE5 /* EisuKeyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40296EC2663442A00772AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40296F52663442A00772AE5 /* EisuKeyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40296E72663442A00772AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40296CF2663442900772AE5 /* EisuKey */;
+			targetProxy = D40296E62663442A00772AE5 /* PBXContainerItemProxy */;
+		};
+		D40296F22663442A00772AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40296CF2663442900772AE5 /* EisuKey */;
+			targetProxy = D40296F12663442A00772AE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D40296DC2663442A00772AE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40296DD2663442A00772AE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40296F72663442A00772AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D40296F82663442A00772AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D40296FA2663442A00772AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EisuKey/EisuKey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EisuKey/Preview Content\"";
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EisuKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D40296FB2663442A00772AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EisuKey/EisuKey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EisuKey/Preview Content\"";
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EisuKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D40296FD2663442A00772AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisuKey.app/Contents/MacOS/EisuKey";
+			};
+			name = Debug;
+		};
+		D40296FE2663442A00772AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EisuKey.app/Contents/MacOS/EisuKey";
+			};
+			name = Release;
+		};
+		D40297002663442A00772AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EisuKey;
+			};
+			name = Debug;
+		};
+		D40297012663442A00772AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KB8AR825XN;
+				INFOPLIST_FILE = EisuKeyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.scorebook.EisuKeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EisuKey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40296CB2663442900772AE5 /* Build configuration list for PBXProject "EisuKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40296F72663442A00772AE5 /* Debug */,
+				D40296F82663442A00772AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40296F92663442A00772AE5 /* Build configuration list for PBXNativeTarget "EisuKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40296FA2663442A00772AE5 /* Debug */,
+				D40296FB2663442A00772AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40296FC2663442A00772AE5 /* Build configuration list for PBXNativeTarget "EisuKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40296FD2663442A00772AE5 /* Debug */,
+				D40296FE2663442A00772AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40296FF2663442A00772AE5 /* Build configuration list for PBXNativeTarget "EisuKeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40297002663442A00772AE5 /* Debug */,
+				D40297012663442A00772AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D40296C82663442900772AE5 /* Project object */;
+}
