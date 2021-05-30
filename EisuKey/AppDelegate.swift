@@ -17,6 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private let eisuKeyCode = Sauce.shared.keyCode(for: .eisu)
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        checkAvailability()
         setupViews()
         setupObservers()
         setTimer()
@@ -24,6 +25,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+    }
+    
+    private func checkAvailability() {
+        // ウィンドウ外でキーボードイベントも検知したい場合
+        // [システム環境設定]->[セキュリティーとプライバシー]->[アクセシビリティ]で有効にするのを促す
+        let options: NSDictionary = [kAXTrustedCheckOptionPrompt.takeRetainedValue() as NSString: true]
+        let accessEnabled = AXIsProcessTrustedWithOptions(options)
+
+        if !accessEnabled {
+           let alert = NSAlert()
+           alert.messageText = "EisuKey.app"
+           alert.informativeText = "システム環境設定でEisuKeyのアクセシビリティを有効にして、このアプリを再度起動する必要があります"
+           alert.addButton(withTitle: "OK")
+           alert.runModal()
+           // 設定できたらアプリを再起動しないと意味ないためアプリ強制終了
+           NSApplication.shared.terminate(self)
+        }
     }
     
     private func setupViews() {
