@@ -3,7 +3,8 @@ import AppKit
 import ServiceManagement
 
 struct ContentView: View {
-    @State private var isCheckedLaunchWhenLogin = false
+    private static let userDefaultsKey = "launchAtLogin"
+    @State private var isCheckedLaunchWhenLogin = UserDefaults.standard.bool(forKey: userDefaultsKey)
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Text("テストアプリ")
@@ -15,9 +16,9 @@ struct ContentView: View {
                 .frame(width: 360.0, height: 320.0, alignment: .topLeading)
             CheckBox(isChecked: $isCheckedLaunchWhenLogin) { isChecked in
                 if SMLoginItemSetEnabled("jp.scorebook.EisuKeyLauncher" as CFString, isChecked) {
-                    UserDefaults.standard.setValue(isChecked, forKey: "launchAtLogin")
+                    UserDefaults.standard.setValue(isChecked, forKey: Self.userDefaultsKey)
                         } else {
-                            isCheckedLaunchWhenLogin = UserDefaults.standard.bool(forKey: "launchAtLogin")
+                            isCheckedLaunchWhenLogin = UserDefaults.standard.bool(forKey: Self.userDefaultsKey)
                         }
             }
             Button(action: {
